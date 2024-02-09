@@ -1,10 +1,3 @@
-<script>
-	var clicks = 0;
-	function onClick() {
-  	clicks += 1;
-  	document.getElementById("clicks").innerHTML = clicks;
-};
-</script>
 <div class="virav"></div>
 
 <div class="opisanie">
