@@ -431,6 +431,14 @@
 			}
 			@media only screen and (max-width: 600px) {
 			}
+			:root {
+				--scrollbarBgColor: rgba(0, 0, 0, .05);
+				--scrollbarThumbColor: rgba(0, 0, 0, .15);
+				--scrollbarThumbColorSecond: rgba(255, 255, 255, .7);
+				--scrollbarWidth: 16px;
+				--scrollbarBorder: 0 solid var(--scrollbarBgColor);
+				--scrollbarBorderRadius: calc(var(--scrollbarWidth) / 4);
+			}	
 		</style>
 	</head>
 	<body data-sveltekit-preload-data="hover">
