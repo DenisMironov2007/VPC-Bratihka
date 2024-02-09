@@ -1,38 +1,13 @@
-# create-svelte
+# Военно-патриотический клуб «БРАТИШКА» 
+# 	&#129308;Побеждает сильнейший&#129307;
+Проводится работа с молодежью, в том числе допризывной, по военно-патриотическому воспитанию, военно-прикладным спортом, военной начальной подготовке, активному и полезному времяпрепровождению.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Направления деятельности:
+- Воздушно-десантная подготовка (работа при десантировании, прыжки с парашютом);
+- Огневая подготовка (оружейная культура, правила точной и меткой стрельбы, практические стрельбы);
+- Военно-штурмовой альпинизм (работа с альп снаряжением, штурм здания, преодоление водных преград, скалолазание);
+- Общевойсковая подготовка (строевая, РХБЗ);
+- Тактико-специальная подготовка (разведка, ориентирование, выживание);
+- История России в лицах Спецназа (ратные подвиги обычных людей из Спецназа ВДВ, ГРУ, ФСБ);
+- Правовая подготовка (правовое информирование, порядок поступления в военные ВУЗы РФ);
+- Военно-тактические игры, соревнования, мероприятия;
