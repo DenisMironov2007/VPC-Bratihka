@@ -20,7 +20,6 @@
 	<div class="cot">
 		<p class="h1">ВПК "Братишка"</p>
 		<p class="p1">город Ахтубинск, Астраханская область</p>
-		<p>Clicks: <a id="clicks">0</a></p>
 	</div>
 </div>
 
