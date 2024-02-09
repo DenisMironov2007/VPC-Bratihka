@@ -13,10 +13,10 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
 					<div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
-						<h3 class="f-title f_600 t_color f_size_18">Связаться</h3>
+						<h3 id="hh3" class="f-title f_600 t_color f_size_18">Связаться</h3>
 						<p>Не пропустите ни одной новой новости в нашей организации!</p>
 						<form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-							<button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+							<button type="button" class="btn btn_get btn_get_two" onClick="onClick()">Subscribe</button>
 							<p class="mchimp-errmessage" style="display: none;"></p>
 							<p class="mchimp-sucmessage" style="display: none;"></p>
 						</form>
@@ -24,7 +24,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
-						<h3 class="f-title f_600 t_color f_size_18">Gомощь</h3>
+						<h3 id="hh1" class="f-title f_600 t_color f_size_18">Gомощь</h3>
 						<ul class="list-unstyled f_list">
 							<li><a href="#">FAQ</a></li>
 							<li><a href="#">Term &amp; conditions</a></li>
@@ -35,7 +35,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
-						<h3 class="f-title f_600 t_color f_size_18">Каналы</h3>
+						<h3 id="hh1" class="f-title f_600 t_color f_size_18">Каналы</h3>
 						<div class="f_social_icon">
 							<a href="#" class="fab fa-facebook"></a>
 							<a href="#" class="fab fa-twitter"></a>
