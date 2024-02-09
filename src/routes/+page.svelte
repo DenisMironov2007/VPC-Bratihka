@@ -102,10 +102,8 @@
 						<ul class="list-unstyled f_list">
 							<li><a href="#">FAQ</a></li>
 							<li><a href="#">Term &amp; conditions</a></li>
-							<li><a href="#">Reporting</a></li>
 							<li><a href="#">Documentation</a></li>
 							<li><a href="#">Support Policy</a></li>
-							<li><a href="#">Privacy</a></li>
 						</ul>
 					</div>
 				</div>
@@ -128,15 +126,6 @@
 		</div>
 	</div>
 	<div class="footer_bottom">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-6 col-sm-7">
-					<p class="mb-0 f_400">© cakecounter Inc.. 2019 All rights reserved.</p>
-				</div>
-				<div class="col-lg-6 col-sm-5 text-right">
-					<p>Made with <i class="icon_heart"></i> in <a href="http://cakecounter.com" target="_blank">CakeCounter</a></p>
-				</div>
-			</div>
-		</div>
+		<div class="container"></div>
 	</div>
 </footer>
