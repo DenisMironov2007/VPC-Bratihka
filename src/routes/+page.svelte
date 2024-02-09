@@ -76,7 +76,6 @@
 						<p>Не пропустите ни одной новой новости в нашей организации!</p>
 						<form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
 							<button type="button" class="btn btn_get btn_get_two" onClick="onClick()">Subscribe</button>
-							<p>Clicks: <a id="clicks">0</a></p>
 							<p class="mchimp-errmessage" style="display: none;"></p>
 							<p class="mchimp-sucmessage" style="display: none;"></p>
 						</form>
