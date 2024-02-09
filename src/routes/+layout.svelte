@@ -10,6 +10,7 @@
 				<a href={link.href} class="link">{link.title}</a>
 			{/if}
 			{/each}
+			<p>Clicks: <a id="clicks">0</a></p>
 		</div>
 	</div>
 </nav>

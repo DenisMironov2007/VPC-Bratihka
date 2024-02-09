@@ -1,5 +1,11 @@
-<div class="virav">
-</div>
+<script>
+	var clicks = 0;
+	function onClick() {
+  	clicks += 1;
+  	document.getElementById("clicks").innerHTML = clicks;
+};
+</script>
+<div class="virav"></div>
 
 <div class="opisanie">
 	<div class="spoiler_wrap">
@@ -76,7 +82,7 @@
 						<h3 id="hh3" class="f-title f_600 t_color f_size_18">Связаться</h3>
 						<p>Не пропустите ни одной новой новости в нашей организации!</p>
 						<form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-							<button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+							<button class="btn btn_get btn_get_two" type="submit" onClick="onClick()">Subscribe</button>
 							<p class="mchimp-errmessage" style="display: none;"></p>
 							<p class="mchimp-sucmessage" style="display: none;"></p>
 						</form>
