@@ -2,13 +2,14 @@
 	<title>Главная</title>
 </svelte:head>
 
-<nav>
-	{#each nav as link}
-		{#if link.isShow}
+<nav class="menu menu-1">
+	<ul>
+		{#each nav as link}
+			{#if link.isShow}
 			<a href={link.href} class="link">{link.title}</a>
-		{/if}
-	{/each}
-	<div class="animation start-home"></div>
+			{/if}
+		{/each}
+	</ul>
 </nav>
 
 <div class="contayner">
