@@ -13,7 +13,7 @@
 	{#if visible}
 	<div  transition:fade>
 			<table>
-				<tr  class="type">
+				<tr class="type">
 					<td colspan="5">Расписание занятий с курсантами старшей группы ВПК Братишка на июль 2023 г</td>
 				</tr>
 				<tr>
