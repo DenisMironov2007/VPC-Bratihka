@@ -3,16 +3,12 @@
 </svelte:head>
 
 <nav>
-	<a href="#">No mask</a>
-    <ul class="list">
-		{#each nav as link}
+	{#each nav as link}
 		{#if link.isShow}
-			<li><a href={link.href} class="link">{link.title}</a></li>
+			<a href={link.href} class="link">{link.title}</a>
 		{/if}
-		{/each}
-	</ul>
-	<button class="search">Search</button>
-	<button class="menu">Menu</button>
+	{/each}
+	<div class="animation start-home"></div>
 </nav>
 
 <div class="contayner">
