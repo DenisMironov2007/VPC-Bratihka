@@ -2,11 +2,11 @@
 	<title>Главная</title>
 </svelte:head>
 
-<nav class="menu menu-1">
-	<ul class="wwwq">
+<nav <nav class="horizontal-menu plain">>
+	<ul>
 		{#each nav as link}
 			{#if link.isShow}
-			<a href={link.href} class="link">{link.title}</a>
+			<li class ={link.lox} ><a href={link.href} class="link">{link.title}</a></li>
 			{/if}
 		{/each}
 	</ul>
@@ -24,36 +24,6 @@
 <div class="container">
 	<slot></slot>
 </div>
-
-<script>
-	const nav = [
-		{ 
-			title: 'Главная',
-			href: '/',
-			isShow: true
-		},
-		{ 
-			title: 'Занятия',
-			href: '/about',
-			isShow: true
-		},
-		{
-			title: 'Медиа',
-			href: '/media',
-			isShow: true
-		},
-		{
-			title: 'Достижения',
-			href: '/lessons',
-			isShow: true
-		},
-		{
-			title: 'Контакты',
-			href: '/new',
-			isShow: true
-		}
-	]
-</script>
 <style>
 	.container {
 		max-width: 1400px;

@@ -1,4 +1,33 @@
-
+<script>
+	const nav = [
+		{ 
+			title: 'Главная',
+			href: '/',
+			isShow: true
+		},
+		{ 
+			title: 'Занятия',
+			href: '/about',
+			isShow: true
+		},
+		{
+			title: 'Медиа',
+			href: '/media',
+			isShow: true
+		},
+		{
+			title: 'Достижения',
+			href: '/lessons',
+			isShow: true
+		},
+		{
+			title: 'Контакты',
+			href: '/new',
+			lox: active,
+			isShow: true
+		}
+	]
+</script>
 <div class="operator">
 	<h1 class="h-1">Организаторы клуба:</h1>
 </div>

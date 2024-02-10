@@ -1,3 +1,33 @@
+<script>
+	const nav = [
+		{ 
+			title: 'Главная',
+			href: '/',
+			lox: active,
+			isShow: true
+		},
+		{ 
+			title: 'Занятия',
+			href: '/about',
+			isShow: true
+		},
+		{
+			title: 'Медиа',
+			href: '/media',
+			isShow: true
+		},
+		{
+			title: 'Достижения',
+			href: '/lessons',
+			isShow: true
+		},
+		{
+			title: 'Контакты',
+			href: '/new',
+			isShow: true
+		}
+	]
+</script>
 <div class="virav"></div>
 
 <div class="opisanie">
