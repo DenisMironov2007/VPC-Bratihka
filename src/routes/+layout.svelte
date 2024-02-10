@@ -6,7 +6,7 @@
 	<ul>
 		{#each nav as link}
 			{#if link.isShow}
-			<li class ={link.lox} ><a href={link.href} class="link">{link.title}</a></li>
+			<li><a href={link.href} class="link">{link.title}</a></li>
 			{/if}
 		{/each}
 	</ul>
@@ -24,6 +24,36 @@
 <div class="container">
 	<slot></slot>
 </div>
+
+<script>
+	const nav = [
+		{ 
+			title: 'Главная',
+			href: '/',
+			isShow: true
+		},
+		{ 
+			title: 'Занятия',
+			href: '/about',
+			isShow: true
+		},
+		{
+			title: 'Медиа',
+			href: '/media',
+			isShow: true
+		},
+		{
+			title: 'Достижения',
+			href: '/lessons',
+			isShow: true
+		},
+		{
+			title: 'Контакты',
+			href: '/new',
+			isShow: true
+		}
+	]
+</script>
 <style>
 	.container {
 		max-width: 1400px;

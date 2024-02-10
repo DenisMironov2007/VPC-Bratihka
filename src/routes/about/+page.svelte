@@ -1,35 +1,6 @@
 <script>
 	import { fade } from 'svelte/transition';
 	let visible = true;
-	const nav = [
-		{ 
-			title: 'Главная',
-			href: '/',
-			isShow: true
-		},
-		{ 
-			title: 'Занятия',
-			href: '/about',
-			lox: active,
-			isShow: true
-		},
-		{
-			title: 'Медиа',
-			href: '/media',
-			isShow: true
-		},
-		{
-			title: 'Достижения',
-			href: '/lessons',
-			isShow: true
-		},
-		{
-			title: 'Контакты',
-			href: '/new',
-			lox: active,
-			isShow: true
-		}
-	]
 </script>
 
 <h1 class="h4">Расписание занятий</h1>

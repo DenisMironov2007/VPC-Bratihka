@@ -1,34 +1,4 @@
-<script>
-	const nav = [
-		{ 
-			title: 'Главная',
-			href: '/',
-			isShow: true
-		},
-		{ 
-			title: 'Занятия',
-			href: '/about',
-			isShow: true
-		},
-		{
-			title: 'Медиа',
-			href: '/media',
-			isShow: true
-		},
-		{
-			title: 'Достижения',
-			href: '/lessons',
-			lox: active,
-			isShow: true
-		},
-		{
-			title: 'Контакты',
-			href: '/new',
-			lox: active,
-			isShow: true
-		}
-	]
-</script>
+
 <div class="dostihenia">
 	<p class="z1">В соответствии с Положением военно-патриотического клуба "Братишка",
 		 структурного подразделения Астраханской региональной общественной 
