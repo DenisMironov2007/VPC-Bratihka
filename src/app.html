@@ -559,7 +559,7 @@
 				bottom: -10px;
 				height: 5px;
 				width: 290px;
-				background-color: red;
+				background-color: rgb(255, 218, 218);
 				border-radius: 25px;
 			}
 			.blockk {
@@ -571,17 +571,6 @@
 			}
 			.ss_1 {
 				margin-left: 70px;
-			}
-			@media only screen and (max-width: 900px) {
-				nav {
-					z-index: 1;
-					position: sticky;
-					top: 0;
-					right: 0;
-					margin:0 50px;
-					padding-top: 20px;
-					padding-bottom: 20px;
-				}
 			}
 			::-webkit-scrollbar {
 				width: 16px;
@@ -641,7 +630,7 @@
 				transform: scale3d(1,1,1);
 			}
 			.menu-1 a::before{
-				background: #E91E63;
+				background: #ddb6c3;
 				transform-origin: 100% 50%;
 			}
 			.menu-1 a:hover::before{
@@ -656,24 +645,22 @@
 			}
 			.menu-4 a::before{
 				transform-origin: 100% 50%;
-				background: #EC407A;
+				background: #f3f3f3;
 			}
 			.menu-5 a::before{
-				background: #E91E63;
+				background: #fbe9ef;
 				transform-origin: 0 50%;
 			}
 			.menu-5 a:hover::before{
 				transform-origin: 100% 50%;
 			}	
-
 			ul {
 				list-style: none;
 			}
 			.horizontal-menu {
 				color: #BEBEBE;
-				display: block;
 				height: 50px;
-				margin: 20px auto;
+				margin: -10px auto;
 				max-width: 1100px;
 			}
 			.horizontal-menu.plain,
@@ -682,7 +669,7 @@
 			}
 			.horizontal-menu.plain li,
 			.horizontal-menu.dropdown li {
-				float: left;
+				float: right;
 				height: 100%;
 				width: 16.6666%;
 			}
@@ -690,7 +677,7 @@
 			.horizontal-menu.dropdown li > a {
 				display: block;
 				height: 100%;
-				line-height: 50px;
+				line-height: 40px;
 				text-align: center;
 				transition: background-position 0.2s ease 0s;
 			}
@@ -706,16 +693,16 @@
 
 			.horizontal-menu.plain li.active a:active,
 			.horizontal-menu.dropdown > div:not(.active):hover > a:active {
-				background: #BA3032;
+				background: #fffbfb;
 				color: #FFF;
 			}
 			.horizontal-menu.plain li a {
-				background: #2c2d2f linear-gradient(to left, #3B3D3F 50%, #2c2d2f 50%) repeat scroll 0 0 / 200% 100%;
+				background: #99a1b1 linear-gradient(to left, #6652fd 50%, #cbc5d6bb 50%) repeat scroll 0 0 / 200% 100%;
 			}
 
 			.horizontal-menu.plain li.active a {
-				background: #DB3839;
-				color: #FFF;
+				background: #1f1f1f;
+				color: #b63939;
 			}
 			.horizontal-menu.dropdown li,
 			.horizontal-menu.dropdown li > a {
@@ -731,7 +718,7 @@
 			}
 
 			.horizontal-menu.dropdown li > div {
-				background: #2C2D2F;
+				background: #858a94;
 				display: none;
 				min-width: 200%;
 				overflow: hidden;
@@ -759,11 +746,11 @@
 
 			.horizontal-menu.dropdown li:hover,
 			.horizontal-menu.dropdown li:hover > div {
-				background: #3B3D3F;
+				background: #ffffff;
 			}
 
 			.horizontal-menu.dropdown li > div > a {
-				background: #2c2d2f linear-gradient(to left, #DB3839 50%, #2c2d2f 50%) repeat scroll 0 0 / 200% 100%;
+				background: #5d6168 linear-gradient(to left, #f2b3b3 50%, #ffffff 50%) repeat scroll 0 0 / 200% 100%;
 				border-radius: 2px;
 				display: block;
 				float: left;
@@ -777,7 +764,7 @@
 			.horizontal-menu.dropdown li > div > a:hover {
 				background-position: 100% 0;
 				cursor: pointer;
-			}	
+			}
 		</style>
 	</head>
 	<body data-sveltekit-preload-data="hover">
