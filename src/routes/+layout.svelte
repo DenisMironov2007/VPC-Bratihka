@@ -3,7 +3,7 @@
 </svelte:head>
 
 <nav class="menu menu-1">
-	<ul>
+	<ul class="wwwq">
 		{#each nav as link}
 			{#if link.isShow}
 			<a href={link.href} class="link">{link.title}</a>
