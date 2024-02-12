@@ -2,14 +2,16 @@
 	<title>Главная</title>
 </svelte:head>
 
-<nav class="horizontal-menu plain">
-	<ul>
-		{#each nav as link}
+<nav>
+	<div class="nav-container">
+		<div class="nav-links">
+			{#each nav as link}
 			{#if link.isShow}
-			<li><a href={link.href} class="link">{link.title}</a></li>
+				<a href={link.href} class="link">{link.title}</a>
 			{/if}
-		{/each}
-	</ul>
+			{/each}
+		</div>
+	</div>
 </nav>
 
 <div class="contayner">
