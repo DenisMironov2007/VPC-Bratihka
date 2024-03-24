@@ -28,44 +28,45 @@
 		</div>
 	</div>
 </div>
+<div class="sasasa">
+	<h1 class="bit">Новости</h1>
 
-<h1 class="bit">Новости</h1>
-
-<section class="grid">
-	<article class="grid-item">
-		<div class="image">
-			<!-- svelte-ignore a11y-missing-attribute -->
-			<img src="new1.jpg"/>
-		</div>
-		<div class="info">
-		</div>
-	</article>
-</section>
-<div class="blocck">
-	<article class="grid-item">
-		<div class="image">
-			<!-- svelte-ignore a11y-missing-attribute -->
-			<img src="new3.jpg"/>
-		</div>
-		<div class="info">
-		</div>
-	</article>
-</div>
-<div class="ffg">
-	<div class="container">
-		<div class="forms">
-			<div class="form login">
-			<span class="title">17 августа 2021 г</span>
+	<section class="grid">
+		<article class="grid-item">
+			<div class="image">
+				<!-- svelte-ignore a11y-missing-attribute -->
+				<img src="new1.jpg"/>
+			</div>
+			<div class="info">
+			</div>
+		</article>
+	</section>
+	<div class="blocck">
+		<article class="grid-item">
+			<div class="image">
+				<!-- svelte-ignore a11y-missing-attribute -->
+				<img src="new3.jpg"/>
+			</div>
+			<div class="info">
+			</div>
+		</article>
+	</div>
+	<div class="ffg">
+		<div class="container">
+			<div class="forms">
+				<div class="form login">
+				<span class="title">17 августа 2021 г</span>
+				</div>
 			</div>
 		</div>
+		<div class="blockk"> 
+			<p>Свой первый парашютный прыжок юные ахтубинские спортсмены совершили на аэродроме Средней Ахтубы: <a href="https://www.youtube.com/watch?v=DF4t35AxprI">ссылка</a>.</p>
+		</div>
+		<!-- svelte-ignore a11y-missing-attribute -->
+		<img src="Rectangle 1 (1).png" class="ss_1">
+		<!-- svelte-ignore a11y-missing-attribute -->
+		<img src="Rectangle 1.png" class="ss_1">
 	</div>
-	<div class="blockk"> 
-		<p>Свой первый парашютный прыжок юные ахтубинские спортсмены совершили на аэродроме Средней Ахтубы: <a href="https://www.youtube.com/watch?v=DF4t35AxprI">ссылка</a>.</p>
-	</div>
-	<!-- svelte-ignore a11y-missing-attribute -->
-	<img src="Rectangle 1 (1).png" class="ss_1">
-	<!-- svelte-ignore a11y-missing-attribute -->
-	<img src="Rectangle 1.png" class="ss_1">
 </div>
 <footer>
 	<p class="odin">Предложить идеи?</p>
