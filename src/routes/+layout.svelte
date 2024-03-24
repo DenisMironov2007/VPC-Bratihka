@@ -13,20 +13,20 @@
 		</div>
 	</div>
 </nav>
+<div class="wrapper">
+	<div class="contayner">
+		<div class="hone_rot"></div>
+		<div class="rot"></div>
+		<div class="cot">
+			<p class="h1">ВПК "Братишка"</p>
+			<p class="p1">город Ахтубинск, Астраханская область</p>
+		</div>
+	</div>
 
-<div class="contayner">
-	<div class="hone_rot"></div>
-	<div class="rot"></div>
-	<div class="cot">
-		<p class="h1">ВПК "Братишка"</p>
-		<p class="p1">город Ахтубинск, Астраханская область</p>
+	<div class="container">
+		<slot></slot>
 	</div>
 </div>
-
-<div class="container">
-	<slot></slot>
-</div>
-
 <script>
 	const nav = [
 		{ 
